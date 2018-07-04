@@ -1,0 +1,347 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Karma:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*-- index page */
+body{
+    ;
+    font-family: sans-serif;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+ background-position: 40% 20%;
+}
+
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+#description {
+    padding: auto;
+    font-weight: bold;
+    font-size: medium;
+    /*background: lightblue;*/
+}
+
+#signup {
+    text-align: center;
+    
+}
+#signin {
+    text-align: center;
+    /*width: 50%;*/
+}
+
+ 
+/*----- who are you page ----*/
+#main {
+    /*background: white;*/
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+#buttonB{
+    margin-left: 30px;
+}
+
+
+
+/*this is for the next and previous buttons onlu*/
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+
+
+
+.previous {
+    background-color: #0069d9;
+    color: white;
+}
+
+.next {
+    background-color: #0069d9;
+    color: white;
+}
+
+
+/*this is for the next and previous buttons onlu*/
+
+b, strong {
+    font-weight: bolder;
+    font-size: 1.75rem;
+}
+
+
+#lock-logo {
+    padding: auto;
+    margin: auto;
+    height: 200px;
+    text-align: center;
+}
+
+.container h2, h5{
+    text-align: center;
+    /*width: 80%;*/
+}
+.formBox {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+    }
+
+    .container {
+    width: 80%;
+  }
+
+.formBox .button1 {
+    width: 200px;
+}
+
+#Credentials {
+    text-align: center;
+    /*width: 40%;*/
+}
+
+
+
+#homescreen {
+    text-align: center;
+}
+
+
+
+ /*Dropdown Button */
+/*.dropbtn {
+    background-color: #007bff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+/*.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}*/
+
+/* The container <div> - needed to position the dropdown content */
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}*/
+
+
+/* Dropdown Content (Hidden by Default) */
+/*.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+*/
+/* Links inside the dropdown */
+/*.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}*/
+
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #ddd}*/
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+/*.show {display:block;}
+*/
+
+
+
+/*this is for the share data button only */
+.viewdata a {
+  margin-top: 70px;
+}
+
+
+#form-sec{
+  margin-top: 20px;
+  
+}
+
+
+#logos {
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+#row1, #row2, #row3 {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+/*Business sign up page (company details page)*/
+
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/*drop down style.css for company details */
+.dropbtn {
+    background-color: #007bff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+
+
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+ /*on hover */
+.dropdown-content a:hover {background-color: #ddd}  
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+*/
+
+
+.form-control {
+    display: block;
+    width: 40%;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #2e6da4;
+}
+
+
+
+.button {
+    background-color: #007bff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /*-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    /*width: 100px;*/
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/*Hover for the wallet button at user home page.*/
+
+#buttn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/*input[type="checkbox"], input[type="radio"] {
+    position: initial;
+    right: 9000px;
+}*/
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:before {
+    box-sizing: border-box;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
