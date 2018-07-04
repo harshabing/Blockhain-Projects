@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDI Block Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="index.css" rel="stylesheet">
+<style>
+    body{
+        background-image: url("images/wallpaper2you_450719.jpg");
+    }
+</style>
+</head>
+<body>
+
+<!-- <!--Navigation -->
+<!-- <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> -->
+    <div class="container-fluid" id="logo">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+</div>
+</nav>
+
+
+<div id="navbar">
+  <a class="active" href="javascript:void(0)">Home</a>
+  <a href="javascript:void(0)">About</a>
+  <a href="javascript:void(0)">Contact</a>
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<br/>
+<div class="container">
+    <div id="description" class="container1">
+        <h2>Welcome to BDIBlock! You are now one step closer to being able to store, share, and sell your data. Don’t worry your data will be safe here. It is stored in the Blockchain, the most secure way to store and transfer data ever created.</h2>
+    </div>
+    <br>
+    <div class="buttons">
+        <a href="whoareyou.html"><button class="btn btn-primary" id="signup" type="submit">Sign Up</button></a>
+    </div>
+    <br>
+    <div class="buttons">
+        <a href="signIn.html"><button class="btn btn-primary" id="signin" type="submit">Sign In</button></a>
+    </div>
+
+
+</div>
+
+</body>
+</html>

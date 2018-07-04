@@ -1,0 +1,73 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*body{
+    padding: 50px;
+}
+*/
+
+
+/* this is for previous and next button only*/
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+
+
+.previous {
+    background-color: #0069d9;
+    color: white;
+}
+
+.next {
+    background-color: #0069d9;
+    color: white;
+}
+
+
+
+label{
+    position: relative;
+    cursor: pointer;
+    color: #666;
+    font-size: 30px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    position: initial;
+    right: 9000px;
+}
+
+/*Check box
+input[type="checkbox"] + .label-text:before{
+    content: "\f096";
+    font-family: "FontAwesome";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing:antialiased;
+    width: 1em;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+input[type="checkbox"]:checked + .label-text:before{
+    content: "\f14a";
+    color: #2980b9;
+    animation: effect 250ms ease-in;
+}
+
+input[type="checkbox"]:disabled + .label-text{
+    color: #aaa;
+}
+
+input[type="checkbox"]:disabled + .label-text:before{
+    content: "\f0c8";
+    color: #ccc;
+}
+
+
