@@ -1,0 +1,21 @@
+{
+  "name": "smartcontracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "solc": "^0.4.21",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3": "^0.20.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^6.0.1",
+    "grunt-cache-bust": "^1.7.0"
+  }
+}
