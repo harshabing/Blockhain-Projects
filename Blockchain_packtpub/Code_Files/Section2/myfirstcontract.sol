@@ -1,58 +1,84 @@
 pragma solidity ^0.4.0;
 
-interface Regulator {       // Interfaces in solidity are a lot like abstract contracts, except that their functions cannot be implemented.
-    function checkValue(uint amount) external view returns (bool);
-    function loan() external view returns (bool);
+interface Regulator {
+    function checkValue(uint amount) external returns (bool);
+    function loan() external returns (bool);
 }
 
-contract Bank is Regulator {     // We use Keyword "is" for extending a interface, here in this case Regulator.
+contract Bank is Regulator {
     uint private value;
+    address private owner;
     
-    function Banks(uint amount) public  {
+    modifier ownerFunc {
+        require(owner == msg.sender);
+        _;
+    }
+
+    constructor(uint amount)  public {
         value = amount;
+        owner = msg.sender;
     }
     
-    function deposit(uint amount) public  {
+    function deposit(uint amount)  public ownerFunc {
         value += amount;
     }
     
-    function withdraw(uint amount) public  {
+    function withdraw(uint amount)  public ownerFunc {
         if (checkValue(amount)) {
             value -= amount;
         }
     }
     
-    function balance() public view returns (uint) {
+    function balance()  public view returns (uint) {
         return value;
     }
     
-    function checkValue(uint amount) public view returns (bool) {
-
+    function checkValue(uint amount)  public returns (bool) {
+        // Classic mistake in the tutorial value should be above the amount
         return value >= amount;
     }
     
-    function loan() public view returns (bool) {
+    function loan()  public returns   (bool) {
         return value > 0;
     }
 }
 
-contract MyFirstContract is Bank() {      //  We use Keyword "is" for extending a Contract.
+contract MyFirstContract is Bank(10) {
     string private name;
     uint private age;
     
-    function setName(string newName) public  {
+    function setName(string newName)  public {
         name = newName;
     }
     
-    function getName() public view returns (string) {
+    function getName()  public view returns (string) {
         return name;
     }
     
-    function setAge(uint newAge) public  {
+    function setAge(uint newAge)  public {
         age = newAge;
     }
     
-    function getAge() public view returns (uint) {
+    function getAge()  public view returns (uint) {
         return age;
     }
 }
+
+contract TestThrows {
+    function  testAssert()  pure public {
+        assert(1 == 2);
+    }
+    
+    function   testRequire() pure  public {
+        require(2 == 1);
+    }
+    
+    function   testRevert()  pure public {
+        revert();
+    }
+    
+    function   testThrow() pure   public  {
+        throw;
+    }
+}
+
