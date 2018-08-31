@@ -43,6 +43,7 @@ contract reviewing {
            delete reviews[RemoveAddress][RemoveId];
             countVar--;
             return true;
+            YourCounter[reviewer] -=1;
        }
        return false;
    }
