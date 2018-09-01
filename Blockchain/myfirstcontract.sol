@@ -51,34 +51,33 @@ contract MyFirstContract is Bank(10) {
         name = newName;
     }
     
-    function getName() returns (string) {
+    function getName() public view returns (string) {
         return name;
     }
     
-    function setAge(uint newAge) {
+    function setAge(uint newAge)public  {
         age = newAge;
     }
     
-    function getAge() returns (uint) {
+    function getAge() public view returns (uint) {
         return age;
     }
 }
 
 contract TestThrows {
-    function testAssert() {
+    function testAssert() public pure{
         assert(1 == 2);
     }
     
-    function testRequire() {
+    function testRequire() public pure{
         require(2 == 1);
     }
     
-    function testRevert() {
+    function testRevert() public pure{
         revert();
     }
     
-    function testThrow() {
-        throw;
+    function testThrow() public pure{
+        revert();
     }
 }
-
