@@ -39,14 +39,14 @@ emit Deposit(msg.sender, msg.value);
 // Their balance must be higher than the amount
 // If it goes through, we emit a withdraw event and return the balance
 function sendFunds(uint amount, address receiver) public allowedToSend returns (uint) {
-require(this.balance >= amount);
+require(address(this).balance >= amount);
 receiver.transfer(amount);
 emit Withdraw(msg.sender, amount, receiver);
 // Log each withdrawl, receiver, amount
 isAllowedToSendFundsMapping[msg.sender].amount_sends++;
 isAllowedToSendFundsMapping[msg.sender].withdrawls[
 isAllowedToSendFundsMapping[msg.sender].amount_sends ] = WithdrawlStruct(receiver, amount);
-return this.balance;
+return  address(this).balance;
 }
 modifier isOwner(){
 require(msg.sender == owner);
