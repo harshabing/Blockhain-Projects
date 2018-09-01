@@ -1,7 +1,9 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.4.18;
+
+
 
 interface Letter {
-    function n() public returns (uint);
+    function n() external returns (uint);
 }
 
 contract A is Letter {
@@ -22,7 +24,7 @@ contract C is Letter {
     }
     
     function x() 
-        public
+        public pure
         returns (string) {
         return "x";        
     }
@@ -34,7 +36,7 @@ contract Alphabet {
     
     event Printer(uint);
     
-    function Alphabet()
+    constructor()
         public {
         letters.push(new A());
         letters.push(new B());
@@ -53,7 +55,7 @@ contract Alphabet {
     function printLetters()
         public {
         for(uint i = 0; i < letters.length; i++) {
-            Printer(letters[i].n());
+            emit Printer(letters[i].n());
         }    
     }
 }
