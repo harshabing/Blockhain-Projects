@@ -18,7 +18,7 @@ contract Casino {
     bool private hasWinner;
     address private winner;
     
-    function Casino()
+    constructor()
         public {
         start = block.timestamp;    
     }
@@ -37,7 +37,7 @@ contract Casino {
         public
         pure
         returns (uint) {
-        return uint(keccak256(number + salt));
+        return uint(keccak256(abi.encodePacked((number + salt))));
     }
     
     function buyTicket(uint hash)
