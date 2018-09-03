@@ -1,4 +1,4 @@
-# _**DAPP : Reviewing using Blockchain.**_
+# _**DAPP : Reviewing using Blockchain by Sriharsha Bingi.**_
 **## BECAUSE**  Now a days BigShots can buy their Reviews. They can bribe the Reviewing companies to put on great reviews, Jaw-Dropping ratings for their Movie or Product or anything. But what if we create a Decentralized Application to store reviews securely and no one can control them, alter them. Thus giving a fair change for people with real potential, real products to grow. This is a two way benefits road. Common people can access things much better using this and also Developers can get fair credits.
 
 **## YOU CAN** Write Reviews, like others reviews, search for a review by typing a review if there are many
