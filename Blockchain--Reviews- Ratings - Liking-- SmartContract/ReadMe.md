@@ -12,7 +12,7 @@ _**DAPP Demo Video:**_
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0v6UQq8A5RM/0.jpg)](https://www.youtube.com/watch?v=0v6UQq8A5RM)
 
 
-_**DAPP Demo Video:**_
+_**DAPP Demo Page:**_
 
 
   https://cdn.rawgit.com/harshabing/Blockhain-Projects/55f21a5f/Blockchain--Reviews-%20Ratings%20-%20Liking--%20SmartContract/Reviews.html
