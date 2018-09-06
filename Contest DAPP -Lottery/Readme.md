@@ -6,7 +6,7 @@
 _**DAPP Demo Video:**_
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/?/0.jpg)](https://www.youtube.com/watch?v=?)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zf_0hBh4ZX4/0.jpg)](https://www.youtube.com/watch?v=zf_0hBh4ZX4)
 
 
 
@@ -47,11 +47,11 @@ complie and deploy to ganache by changing the environment in the Remix IDE to We
 
 ###   5)Steps:
 
-• Create a Folder called, lets say RatingDAPP. Create a index.html and main.css files in that.
+• Create a Folder called, lets say ContestDapp. Create a four files from the repository exhibition.html,organizer.html,owner.html and participants.html and add main.css for styling and main.js for menu page in that.
 
 • Node -v if this does not show the version install node package manager.
 
-• Open remix ide and copy paste the “rating.sol” contract into it. Hit start to
+• Open remix ide and copy paste the “exhibition.sol” contract into it. Hit start to
 compile. Once it is complied without any errors you can go to run tab.
 
 • Now before we can deploy the contract lets open Ganache by clicking the ganache Icon.
@@ -70,19 +70,18 @@ compile. Once it is complied without any errors you can go to run tab.
 
 • We have successfully deployed our Contract to the Blockchain.
 
-• Open index.html in that folder and then copy paste the entire code from the Review.html to this file.
 
 • This page contains our entire front-end and the functionality for interacting with the contract from blockchain using Web3.
 
-• For the Styling add the content of main.css file to your main.css file in RatingDAPP folder.
+• For the Styling add the content of main.css file to your main.css file in contestDAPP folder.
 
-• Before opening the DAPP’s index page first change the contract address present in index.html to the address you have recently deployed to.
+• Before opening the DAPP’s index page first change the contract address present in  all .html files to the address you have recently deployed to.
 
 • You can find this address in transaction in Ganache which was created when we deployed the contract from remix.
 
 • Keep in mind that the ABI of the contract doesn’t change as long as you don’t alter the contract obviously.
 
-• To use the DAPP in Chrome browser first install web server for chrome. Because you can directly open page from our local disk using the local file path as an address in chrome( Example - “C/ documents/RatingDapp” this wont work. Request needs to be coming from a server like - localhost:7545)
+• To use the DAPP in Chrome browser first install web server for chrome. Because you can directly open page from our local disk using the local file path as an address in chrome( Example - “C/ documents/ContestDapp” this wont work. Request needs to be coming from a server like - localhost:7545)
 
-• Once you open the index.html page you can now interact using the frontend and all the transactions can be seen in the Ganache and are console logged also to debug easily and make life simpler and.
+• Once you open the exhibition.html page you can now interact using the frontend and all the transactions can be seen in the Ganache and are console logged also to debug easily and make life simpler and.
 Cheers !
