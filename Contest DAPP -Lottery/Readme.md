@@ -13,7 +13,7 @@ _**DAPP Demo Video:**_
 _**DAPP Demo Page:**_
 
 
-  https://cdn.rawgit.com/harshabing/Blockhain-Projects/55f21a5f/Blockchain--Reviews-%20Ratings%20-%20Liking--%20SmartContract/Reviews.html
+  https://cdn.rawgit.com/harshabing/Blockhain-Projects/3393075a/Contest%20DAPP%20-Lottery/exhibition.html
 
 
 
