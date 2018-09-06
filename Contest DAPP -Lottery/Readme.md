@@ -1,16 +1,12 @@
 
-# _**DAPP : Reviewing using Blockchain by Sriharsha Bingi.**_
-**_BECAUSE_**  Now a days BigShots can buy their Reviews. They can bribe the Reviewing companies to put on great reviews, Jaw-Dropping ratings for their Movie or Product or anything. But what if we create a Decentralized Application to store reviews securely and no one can control them, alter them. Thus giving a fair change for people with real potential, real products to grow. This is a two way benefits road. Common people can access things much better using this and also Developers can get fair credits.
+# _**DAPP : Contest using Blockchain by Sriharsha Bingi.**_
 
-**_YOU CAN_** Write Reviews, like others reviews, search for a review by typing a review if there are many
-and you are lazy to scroll through them, find the owner of that review and its unique ID(address, Id of Review for reference) , Remove review if you are the owner, count the total number of reviews you got overall.
-jpg
 
 
 _**DAPP Demo Video:**_
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0v6UQq8A5RM/0.jpg)](https://www.youtube.com/watch?v=0v6UQq8A5RM)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/?/0.jpg)](https://www.youtube.com/watch?v=?)
 
 
 
@@ -21,7 +17,6 @@ _**DAPP Demo Page:**_
 
 
 
-https://www.linkedin.com/feed/update/urn:li:activity:6442717347097702400/
 
 
 ###  1)Node Package Manager (NPM)
