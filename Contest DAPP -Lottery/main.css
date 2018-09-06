@@ -52,6 +52,8 @@ body {
     color: black;
 }
 
+/* @Sriharsha_Bingi
+*/
 /*
 Basic input element using psuedo classes
 */
@@ -187,6 +189,8 @@ input[type="submit"]:hover {
   background: #EEE;
 }
 
+/* @Sriharsha_Bingi
+*/
 input[type="submit"]:active {
   background: #999;
 }
@@ -294,6 +298,8 @@ input.question:invalid ~ input[type="submit"], textarea.question:invalid ~ input
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+/* @Sriharsha_Bingi
+*/
 .Registerbutton {
     background-color: #4d44448f;
     border: none;
