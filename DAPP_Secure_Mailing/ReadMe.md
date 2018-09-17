@@ -1,5 +1,5 @@
 
-# _**DAPP : Reviewing using Blockchain by Sriharsha Bingi.**_
+# _**DAPP : Secure Mailing using Blockchain by Sriharsha Bingi.**_
 **_BECAUSE_**  What if we can login to any mailing system securely, have all our logins to be logged. Most importantly adding highest security to our loggings. If you did wonder, you are awesome !  Today, again I came up with another idea where blockchain again proves its worthiness. I made a Decentralized Application which allows you to add a layer of security on top of your mailing system’s Login page. when signing up to your mail account you can authenticate using blockchain, making it more secure. What it does : You need to register first and then every time you want to login to your mail you need to authorize your login by first proving that you are the owner of that account. It’s that simple. Then every time you login, your ETH Address, Username and time of login will be stored in logs. How helpful and secure can it be. Imagine if you integrate this feature as mandatory for signing in.  Yea, Yea I know what anyone might say :
                                  - Come on its extra time & effort.
                                  - All mailing systems already have logs.
