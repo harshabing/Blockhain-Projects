@@ -26,14 +26,14 @@ Link:  https://lemon.email
 _**DAPP Demo Video:**_
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zf_0hBh4ZX4/0.jpg)](https://www.youtube.com/watch?v=zf_0hBh4ZX4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0PbLhBwy3Sw/0.jpg)](https://www.youtube.com/watch?v=0PbLhBwy3Sw)
 
 
 
 _**DAPP Demo Page:**_
 
 
-  https://cdn.rawgit.com/harshabing/Blockhain-Projects/3393075a/Contest%20DAPP%20-Lottery/exhibition.html
+  https://cdn.rawgit.com/harshabing/Blockhain-Projects/add-license-3/DAPP_Secure_Mailing/index.html
 
 
 
