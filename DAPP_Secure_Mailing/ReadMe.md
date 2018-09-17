@@ -21,7 +21,7 @@ _**DAPP Demo Video:**_
 _**DAPP Demo Page:**_
 
 
-  hhttps://cdn.rawgit.com/harshabing/Blockhain-Projects/b1088569/DAPP_Secure_Mailing/index.html
+  https://cdn.rawgit.com/harshabing/Blockhain-Projects/b1088569/DAPP_Secure_Mailing/index.html
 
 
 
