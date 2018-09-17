@@ -56,11 +56,11 @@ complie and deploy to ganache by changing the environment in the Remix IDE to We
 
 ###   5)Steps:
 
-• Create a Folder called, lets say RatingDAPP. Create a index.html and main.css files in that.
+• Create a Folder called, lets say SecureMailDAPP. Create a index.html file in that.
 
 • Node -v if this does not show the version install node package manager.
 
-• Open remix ide and copy paste the “rating.sol” contract into it. Hit start to
+• Open remix ide and copy paste the “mailing.sol” contract into it. Hit start to
 compile. Once it is complied without any errors you can go to run tab.
 
 • Now before we can deploy the contract lets open Ganache by clicking the ganache Icon.
@@ -79,19 +79,21 @@ compile. Once it is complied without any errors you can go to run tab.
 
 • We have successfully deployed our Contract to the Blockchain.
 
-• Open index.html in that folder and then copy paste the entire code from the Review.html to this file.
+• Create all three HTML files from this github project.
 
-• This page contains our entire front-end and the functionality for interacting with the contract from blockchain using Web3.
+• These pages contains our entire front-end and the functionality for interacting with the contract from blockchain using Web3.
 
-• For the Styling add the content of main.css file to your main.css file in RatingDAPP folder.
+• For the Motion Styling add the content of main.js fileto your folder.
 
-• Before opening the DAPP’s index page first change the contract address present in index.html to the address you have recently deployed to.
+• Before opening the DAPP’s index page first change the contract address present in all html files to the address you have recently deployed to.
+
+• To make it more simple you can actually combine all scripts into one JS file and then add that script file link to the html pages.
 
 • You can find this address in transaction in Ganache which was created when we deployed the contract from remix.
 
 • Keep in mind that the ABI of the contract doesn’t change as long as you don’t alter the contract obviously.
 
-• To use the DAPP in Chrome browser first install web server for chrome. Because you can directly open page from our local disk using the local file path as an address in chrome( Example - “C/ documents/RatingDapp” this wont work. Request needs to be coming from a server like - localhost:7545)
+• To use the DAPP in Chrome browser first install web server for chrome. Because you can directly open page from our local disk using the local file path as an address in chrome( Example - “C/ documents/SecureMailDapp” this wont work. Request needs to be coming from a server like - localhost:7545)
 
 • Once you open the index.html page you can now interact using the frontend and all the transactions can be seen in the Ganache and are console logged also to debug easily and make life simpler and.
 Cheers !
