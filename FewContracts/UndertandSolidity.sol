@@ -26,11 +26,11 @@ contract ForFueled is Regulator{            // using "is" keyword we can inherit
     
     bool myBool;             // boolean datatype,has only true or false
     
-    uint8[] myStringArr;     // solidity still can allow use to create an array of strings like "string[] a;"
+    uint8[] myStringArr;     // solidity didn't used to allow us to create an array of strings in this way -> "string[] a;" 
     
     uint[] myIntArr;         // unfixed length uint array
     
-    //fixed256x8 myFixnumber = 1;  // Not yet implemented yet, might come in future soon. As it is important in
+    //fixed256x8 myFixnumber = 1;  // Not  implemented yet, might come in future soon. As it is important in
                                   // finance world, we cant use floating point
     
     enum Action {ADD, REMOVE, UPDATE} //Enums can be used to create custom types with a finite set of constant values 
